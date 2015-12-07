@@ -1,0 +1,47 @@
+{
+  "name": "ibs-app",
+  "version": "1.0.0",
+  "authors": [
+    "Sopra Steria Spa"
+  ],
+  "description": "IBS Mobile",
+  "moduleType": [
+    "node"
+  ],
+  "license": "Inside a bit",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "async": "~0.9.0",
+    "backbone": "~1.1.2",
+    "backbone.babysitter": "~0.1.5",
+    "backbone.basicauth": "git://github.com/SonoIo/backbone.basicauth.git#master",
+    "backbone.pubsub": "~1.0.0",
+    "backbone.touch": "https://github.com/vash15/backbone.touch.git",
+    "backbone.viewstack": "~1.0.15",
+    "cache-utils": "~1.0.1",
+    "context-utils": "~1.0.1",
+    "device-utils": "~1.0.2",
+    "jquery": "~2.1.1",
+    "keyboard.js": "~1.0.0",
+    "network-utils": "~2.0.0",
+    "page-utils": "~1.0.2",
+    "pantarhei": "~0.2.1",
+    "settings-utils": "~1.0.0",
+    "translate-utils": "~1.0.1",
+    "underscore": "~1.7.0",
+    "underscore.string": "~2.3.3",
+    "validator-js": "~3.19.1",
+    "webworkify": "git://github.com/substack/webworkify#master"
+  },
+  "devDependencies": {
+    "mocha": "~1.21.4",
+    "chai": "~1.9.2"
+  }
+}
